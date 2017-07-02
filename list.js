@@ -20,7 +20,7 @@ const zipFiles = () => {
         const output = fs.createWriteStream(`${__dirname}/dist/${item}.zip`);
         const archive = archiver('zip');
         archive.pipe(output);
-        archive.directory(`dev/${item}/`, item);
+        archive.directory(`dev/${item}/`, false);
         archive.finalize();
     });
     console.log('\n批量打包完成------\n\n');
