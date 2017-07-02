@@ -1,7 +1,11 @@
 {
-	"packageTime": "2017-07-02T13:20:11.165Z",
+	"packageTime": "2017-07-02T14:30:01.138Z",
 	"data": [
 		"Weather",
-		"basicClock"
+		"basicClock",
+		"blueClock",
+		"fashionClock",
+		"skyClock",
+		"starClock"
 	]
 }
