@@ -3,4 +3,10 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    background: #f8f8f8;
+}
+
+pre {
+    width: 100%;
+    overflow-wrap: break-word;
 }
