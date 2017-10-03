@@ -3,7 +3,12 @@
  */
 setInterval(function () {
     window.currentTime = new Date();
-    document.getElementById('clock').textContent = `${currentTime.getHours()}:${currentTime.getMinutes()}:${currentTime.getSeconds()} `;
+    document.getElementById('clock').textContent = 
+        currentTime.getHours()
+        + ':' +
+        currentTime.getMinutes() 
+        + ':' + 
+        currentTime.getSeconds();
     
     // BridgeAPI.sendDataToReactNative(currentTime);
     // getWeatherData();
